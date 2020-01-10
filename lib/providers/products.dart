@@ -7,7 +7,7 @@ class Products with ChangeNotifier {
   List<Product> _items = [];
 
   List<Product> get items {
-    return [..._items];
+    return _items;
   }
 
   List<Product> get favoriteItems {
